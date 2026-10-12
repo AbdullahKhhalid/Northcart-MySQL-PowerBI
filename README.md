@@ -25,7 +25,7 @@ Both reports are included as .pbix files with PDF exports.
 ## Repository Structure
 - `/MySQL` – MySQL scripts
 - `/PowerBI` – .pbix files and PDF exports
-- '/ProjectDocs' - FINDINGS document and database relationship diagram
+- `/ProjectDocs` – FINDINGS document and database relationship diagram
 
 ## Query Standards
 Explicit joins, named CTEs, no `SELECT *`, a single "valid order" definition, a fixed reference date instead of `CURDATE()`, rounding only in the final SELECT, and idempotent scripts that never modify the original `customers` table.
